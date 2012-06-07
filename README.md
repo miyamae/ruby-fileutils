@@ -12,4 +12,4 @@ Ruby標準のFileUtilsの代用品です。あらかじめ操作対象のパス�
 
 2つのディレクトリを比較して差分で同期します。
 
-	SyncDir(src_dir, dst_dir).new.sync
+	SyncDir.new(src_dir, dst_dir).sync
